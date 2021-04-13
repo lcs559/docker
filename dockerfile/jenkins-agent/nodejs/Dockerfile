@@ -22,7 +22,7 @@
 
 # There is no official Alpine images at the moment.
 # Needs upgrade when/if there is an official alpine image.
-FROM liaocs559/jenkins-agent:4.7-1-jdk8-centos7.1
+FROM liaocs559/jenkins-agent:4.7-1-jdk8-centos7-maven.1
 
 ARG root_user=root
 ARG jenkins_user=jenkins
