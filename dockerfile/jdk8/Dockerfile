@@ -22,10 +22,9 @@
 
 # There is no official Alpine images at the moment.
 # Needs upgrade when/if there is an official alpine image.
-FROM centos:7_1
+FROM centos:7.1
 
 ADD jdk-8u191-linux-x64.tar.gz  /usr/local/
-ENV LANG C.UTF-8
 # 指定容器内jdk所在目录
 ENV JAVA_VERSION 1.8.0
 ENV JAVA_HOME /usr/local/jdk1.8.0_191

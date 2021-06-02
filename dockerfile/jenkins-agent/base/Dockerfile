@@ -22,7 +22,7 @@
 
 # There is no official Alpine images at the moment.
 # Needs upgrade when/if there is an official alpine image.
-FROM liaocs559/jdk8:1.8.0_191-centos7_1
+FROM liaocs559/jdk8:1.8.0_191-centos7.5
 
 ARG VERSION=4.7
 ARG user=jenkins
